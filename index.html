@@ -7,11 +7,12 @@
     <style>
         .mall-logo{
            padding-left: 800px;
-          
+          margin-top: 5px;
         }
         .receipt-title{
           text-align: center;
           font-weight: bolder;
+          margin-right: 60px;
         }
         .receipt-container{
             width: 80%;
@@ -23,11 +24,17 @@
            
         }
        .detail{
-       justify-content: center;
+       justify-content:space-evenly;
         display: flex;
+        color: gray;
        }
        .receipt-value{
         font-weight: bolder;
+        width: 20%;
+        color: black;
+       }
+       .footer{
+        text-align:center ;
        }
         
     </style>
@@ -35,7 +42,7 @@
 <body>
     <div class="receipt-container">
     <img class="mall-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtsGNewpU1s7iqAt_YrM1Xwkb9OW-XPcUTyZnWZnhF&s"
-    width="150px">
+     height="50px" width="150px">
     <br><br>
     <div class="address">
         Ground Floor ,Old Custom House,<br>
@@ -43,12 +50,36 @@
     </div>
 <hr>
    <div class="receipt-title">Payment Receipt</div>
-   <div class="detail">
-    <div>Receipt No:</div>
+    <div class="detail">
+    <div class="detail">Receipt No:</div>
     <div class="receipt-value">1129032</div>
-    <div>Receipt Date:</div>
-    <div>12 March 2024</div>
-    </div>
    </div>
+   <br>
+    <div class="detail">
+        <div>Account No:</div>
+        <div class="receipt-value">12329032</div>
+        </div> <br>
+        <div class="detail">
+            <div>Receipt Date:</div>
+            <div class="receipt-value">12 Nov 2023</div>
+            </div>
+            <br>
+            <div class="detail">
+                <div>Total Amount:</div>
+                <div class="receipt-value">Rs 1135</div>
+                </div>
+                <br>
+                <div class="detail">
+                    <div>Payment Mode:</div>
+                    <div class="receipt-value">Cash</div>
+                    </div>
+                    <br>
+                    <div class="detail">
+                        <div>Total Paid:</div>
+                        <div class="receipt-value">&nbsp;&nbsp;Rs 1135</div>
+                        </div>   
+                    <hr>
+                    
+                    <div class="footer">Thank you for payment.</div>
    </body>
 </html>
